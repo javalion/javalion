@@ -3,6 +3,7 @@
 ---
 
 > Commit to delivering. When a task is nearly done, finish it. Always be unblocking.
+> 
 > _Work Clean by Dan Charnas - Finding Actions_
 
 ---
