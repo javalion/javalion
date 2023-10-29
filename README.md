@@ -1,6 +1,11 @@
 # Terry McKee
 
-🤓 Hello, I'm Terry. I am a Technical Specialist Software Engineer. I work on web-based apps using HTML, CSS, Typescript and React.  I also create APIs and develop back-end systems using Java.  
+---
+
+> Commit to delivering. When a task is nearly done, finish it. Always be unblocking.
+> _Work Clean by Dan Charnas - Finding Actions_
+
+🤓 Hello, I'm Terry. I am a Lead Software Engineer. I work on back-end microservices using Java, Go, and Python.  I also enjoy working on front-end systems using React, HTML, CSS, and Javascript.
 
 ## About Me
 - ❕ I love learning new things.  I'm passionate about creating systems to make learning easier.
