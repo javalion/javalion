@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-labelledby="title desc">
+  <title id="title">Courage, Leadership, Learning</title>
+  <desc id="desc">One line crosses a gap, hands off to paths that each reach their own outcome, then climbs seven steps.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0c1424"/>
+      <stop offset="1" stop-color="#182846"/>
+    </linearGradient>
+    <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="1.2" fill="#ffffff" opacity="0.07"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f5b942" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f5b942" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="400" rx="16" fill="url(#bg)"/>
+  <rect width="1280" height="400" rx="16" fill="url(#dots)"/>
+
+  <g transform="translate(0,-30)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Courage: the ground ends, the line crosses anyway -->
+    <path d="M200,280 V330 M300,280 V330" stroke="#3b4d72" stroke-width="2"/>
+    <path d="M80,280 H200" stroke="#e6ecf7" stroke-width="3"/>
+    <path d="M200,280 Q250,190 300,280" stroke="#f5b942" stroke-width="3" stroke-dasharray="2 9"/>
+
+    <!-- Leadership: one hub, several paths, each to its own outcome -->
+    <path d="M500,280 C580,280 600,170 720,170" stroke="#8fa6d1" stroke-width="2"/>
+    <path d="M500,280 C570,280 620,225 720,225" stroke="#8fa6d1" stroke-width="2"/>
+    <path d="M500,280 C570,280 620,335 720,335" stroke="#8fa6d1" stroke-width="2"/>
+    <g fill="#e6ecf7" stroke="none">
+      <circle cx="720" cy="170" r="5"/>
+      <circle cx="720" cy="225" r="5"/>
+      <circle cx="720" cy="335" r="5"/>
+    </g>
+
+    <!-- Learning: seven steps, one week, then the next -->
+    <path d="M300,280 H820 v-24 h48 v-24 h48 v-24 h48 v-24 h48 v-24 h48 v-24 h48 v-24 h48" stroke="#e6ecf7" stroke-width="3"/>
+
+    <circle cx="500" cy="280" r="7" fill="#f5b942" stroke="none"/>
+    <circle cx="1156" cy="112" r="26" fill="url(#glow)" stroke="none"/>
+    <circle cx="1156" cy="112" r="7" fill="#f5b942" stroke="none"/>
+  </g>
+
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="6" fill="#c3cfe6" text-anchor="middle">
+    <text x="250" y="352">COURAGE</text>
+    <text x="610" y="352">LEADERSHIP</text>
+    <text x="988" y="352">LEARNING</text>
+  </g>
+</svg>

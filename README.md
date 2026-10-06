@@ -1,3 +1,5 @@
+![One line crosses a gap, hands off to paths that each reach their own outcome, then climbs seven steps: Courage, Leadership, Learning.](assets/hero.svg)
+
 _Notes to myself: what I value, how I act on it, and what changed my thinking._
 
 ## Courage
